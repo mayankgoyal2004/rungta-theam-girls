@@ -68,7 +68,7 @@ export default function Header() {
       </div>
 
       {/* =========================================================
-           NAVBAR WITH SRGI & 3D RPL 5.0 CREST LOGO
+           NAVBAR WITH SRGI & NEW RWPL 2.0 LOGO
       ========================================================= */}
       <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container-custom nav-inner">
@@ -83,8 +83,8 @@ export default function Header() {
             <div className="h-8 w-[1.5px] bg-slate-200 hidden sm:block"></div>
             <div className="flex items-center gap-2">
               <img
-                src="/rpl-crest-3d.png"
-                alt="Rungta Premier League 5.0"
+                src="/rwpl-logo-2.0.png"
+                alt="Rungta Women's Premier League 2.0"
                 className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>

@@ -23,10 +23,10 @@ export default function TournamentFormat() {
             </div>
 
             <div className="timeline-content">
-              <span>21 OCTOBER 2026</span>
+              <span>17 NOVEMBER 2026</span>
               <h3>Tournament Begins</h3>
               <p>
-                Opening matches and tournament kick-off at RSR RCET Ground.
+                Opening matches and tournament kick-off at Sanjay Rungta Cricket Ground.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function TournamentFormat() {
             </div>
 
             <div className="timeline-content">
-              <span>KNOCKOUT / PRELIMS</span>
+              <span>KNOCKOUT PRELIMS</span>
               <h3>5 Overs Per Match</h3>
               <p>
                 Fast-paced knockout cricket format. Only winning squads advance.
@@ -65,7 +65,7 @@ export default function TournamentFormat() {
             </div>
 
             <div className="timeline-content">
-              <span>04 NOVEMBER 2026</span>
+              <span>22 NOVEMBER 2026</span>
               <h3>Grand Final (6 Overs)</h3>
               <p>
                 Championship 6-over finale and grand cash prize distribution celebration.

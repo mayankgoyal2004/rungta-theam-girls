@@ -17,7 +17,7 @@ export default function RegistrationSection() {
           </h2>
 
           <p className="reg-subtitle">
-            REGISTER YOUR TEAM <span className="reg-sub-gold">NOW AND BE A PART OF RUNGTA PREMIER LEAGUE 5.0</span>
+            REGISTER YOUR TEAM <span className="reg-sub-gold">NOW AND BE A PART OF RUNGTA WOMEN'S PREMIER LEAGUE 2.0</span>
           </p>
 
           <a

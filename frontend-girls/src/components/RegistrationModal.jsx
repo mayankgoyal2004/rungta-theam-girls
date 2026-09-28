@@ -38,7 +38,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
 
   const handleWhatsAppSend = () => {
     const text = encodeURIComponent(
-      `🏏 *RUNGTA PREMIER LEAGUE 5.0 - NEW LEAD / ENQUIRY*\n` +
+      `🏏 *RUNGTA WOMEN'S PREMIER LEAGUE 2.0 (RWPL 2.0) - NEW LEAD / ENQUIRY*\n` +
       `━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
       `👤 *Name:* ${form.fullName}\n` +
       `📞 *Phone:* ${form.phone}\n` +
@@ -46,7 +46,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
       `📍 *City:* ${form.city}\n` +
       `👔 *Role:* ${form.role}\n` +
       `━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
-      `Hello, I would like to get tournament details and register our team for RPL 5.0.`
+      `Hello, I would like to get tournament details and register our team for RWPL 2.0.`
     );
     window.open(`https://wa.me/919229111555?text=${text}`, '_blank');
   };
@@ -88,7 +88,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
             </h3>
 
             <p className="reg-success-desc">
-              We have received your enquiry for <strong>Rungta Premier League 5.0</strong>. Our tournament desk will connect with you shortly on <strong>{form.phone}</strong>.
+              We have received your enquiry for <strong>Rungta Women's Premier League 2.0</strong>. Our tournament desk will connect with you shortly on <strong>{form.phone}</strong>.
             </p>
 
             {/* QUICK LEAD SUMMARY CARD */}
@@ -107,8 +107,8 @@ export default function RegistrationModal({ isOpen, onClose }) {
               <div className="text-xs text-slate-600 space-y-1.5 pt-1">
                 <p><strong>Contact Person:</strong> {form.fullName} ({form.role})</p>
                 <p><strong>Phone Number:</strong> {form.phone}</p>
-                <p><strong>Tournament Dates:</strong> 21 Oct – 04 Nov 2026</p>
-                <p><strong>Venue:</strong> RSR RCET Cricket Ground, Bhilai</p>
+                <p><strong>Tournament Dates:</strong> 17 Nov – 22 Nov 2026</p>
+                <p><strong>Venue:</strong> Sanjay Rungta Cricket Ground, Bhilai</p>
               </div>
             </div>
 
@@ -139,7 +139,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
             <div className="reg-modal-header">
               <div className="reg-header-pill">
                 <Trophy className="w-3.5 h-3.5 text-amber-500" />
-                <span>RPL 5.0 • TOURNAMENT ENQUIRY</span>
+                <span>RWPL 2.0 • TOURNAMENT ENQUIRY</span>
               </div>
               <h3 className="reg-main-title">
                 GET TOURNAMENT <span>DETAILS</span>
@@ -206,7 +206,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
                 <input
                   type="text"
                   required
-                  placeholder="e.g. St. Xavier's / DPS / Govt Higher Secondary"
+                  placeholder="e.g. St. Xavier's / DPS / Govt Girls H.S. School"
                   value={form.schoolName}
                   onChange={(e) => setForm({ ...form, schoolName: e.target.value })}
                   className="reg-form-input"
@@ -251,7 +251,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
               </button>
 
               <p className="text-center text-[11px] text-slate-500 mt-1">
-                Need immediate help? Call RPL Helpline: <a href="tel:9229111555" className="text-red-600 font-bold hover:underline">9229 111 555</a> / <a href="tel:9229111666" className="text-red-600 font-bold hover:underline">9229 111 666</a>
+                Need immediate help? Call RWPL Helpline: <a href="tel:9229111555" className="text-red-600 font-bold hover:underline">9229 111 555</a> / <a href="tel:9229111666" className="text-red-600 font-bold hover:underline">9229 111 666</a>
               </p>
 
             </form>

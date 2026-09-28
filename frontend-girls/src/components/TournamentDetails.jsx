@@ -68,7 +68,7 @@ export default function TournamentDetails() {
               <Calendar className="td-icon text-red-600" strokeWidth={2.2} />
             </div>
             <h3 className="td-title td-date-title">
-              21 OCT 2026<br />to<br />04 NOV 2026
+              17 NOV 2026<br />to<br />22 NOV 2026
             </h3>
             <p className="td-sub">Tournament Dates</p>
           </div>
@@ -80,7 +80,7 @@ export default function TournamentDetails() {
             </div>
             <h3 className="td-title td-venue-title">
               Sanjay Rungta Group of Institutions,<br />
-              RSR RCET Cricket Ground,<br />
+              Cricket Ground,<br />
               Bhilai
             </h3>
             <p className="td-sub">Official Venue</p>

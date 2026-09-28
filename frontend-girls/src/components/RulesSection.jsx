@@ -7,7 +7,7 @@ import {
   CheckCircle2, 
   ShieldAlert, 
   UserX, 
-  Ban, 
+  CheckCheck, 
   FileBadge, 
   Shirt, 
   Gavel 
@@ -28,12 +28,12 @@ export default function RulesSection() {
     {
       id: "03",
       icon: <Trophy className="w-5 h-5 text-[#061b38] shrink-0" strokeWidth={2.4} />,
-      text: "Knockout prelims matches will be of 5 overs."
+      text: "Knockout matches will be of 5 overs."
     },
     {
       id: "04",
       icon: <Clock className="w-5 h-5 text-[#061b38] shrink-0" strokeWidth={2.4} />,
-      text: "Semi Final and Final matches will be of 6 overs a side. Teams should report 30 minutes prior to scheduled match start time."
+      text: "Semi Final and Final matches will be 6 overs a side. The team should report 30 minutes prior to the scheduled match start time."
     },
     {
       id: "05",
@@ -55,18 +55,18 @@ export default function RulesSection() {
     },
     {
       id: "08",
-      icon: <Ban className="w-5 h-5 text-[#061b38] shrink-0" strokeWidth={2.4} />,
-      text: "Chucking is strictly not allowed."
+      icon: <CheckCheck className="w-5 h-5 text-[#061b38] shrink-0" strokeWidth={2.4} />,
+      text: "Chucking is allowed."
     },
     {
       id: "09",
       icon: <FileBadge className="w-5 h-5 text-[#061b38] shrink-0" strokeWidth={2.4} />,
-      text: "All players must produce original School ID card and Aadhaar card at the time of registration/verification."
+      text: "All players must produce a School ID card and Aadhar card at the time of registration."
     },
     {
       id: "10",
       icon: <Shirt className="w-5 h-5 text-[#061b38] shrink-0" strokeWidth={2.4} />,
-      text: "All participants are required to wear team sports uniforms and the necessary sports gear throughout the event."
+      text: "All the players in the team need to wear the same colour sports uniform."
     },
     {
       id: "11",
@@ -85,7 +85,7 @@ export default function RulesSection() {
             RULES & <span>REGULATIONS</span>
           </h2>
           <p className="prizes-subtitle">
-            FAIR PLAY & OFFICIAL TOURNAMENT GUIDELINES
+            OFFICIAL TOURNAMENT GUIDELINES & FAIR PLAY POLICY
           </p>
         </div>
 

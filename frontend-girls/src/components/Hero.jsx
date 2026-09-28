@@ -47,11 +47,11 @@ export default function Hero() {
       if (data.success && data.data && data.data.id) {
         setLeadId(data.data.id);
       } else {
-        setLeadId(`RPL-${Math.floor(1000 + Math.random() * 9000)}`);
+        setLeadId(`RWPL-${Math.floor(1000 + Math.random() * 9000)}`);
       }
     } catch (err) {
       console.warn('Backend offline, using client fallback confirmation:', err);
-      setLeadId(`RPL-${Math.floor(1000 + Math.random() * 9000)}`);
+      setLeadId(`RWPL-${Math.floor(1000 + Math.random() * 9000)}`);
     } finally {
       setSubmitting(false);
       setIsSubmitted(true);
@@ -69,7 +69,7 @@ export default function Hero() {
   };
 
   const handleWhatsAppSend = () => {
-    const text = encodeURIComponent('Hello, I want to register our team for Rungta Premier League 5.0.');
+    const text = encodeURIComponent('Hello, I want to register our team for Rungta Women\'s Premier League 2.0 (RWPL 2.0).');
     window.open(`https://wa.me/919229111555?text=${text}`, '_blank');
   };
 
@@ -90,7 +90,7 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-overlay"></div>
 
-      {/* BACKGROUND CRICKET IMAGE LAYER (HIGH-RES GIRLS CRICKET ACTION) */}
+      {/* BACKGROUND CRICKET IMAGE LAYER */}
       <div className="hero-player">
         <div className="hero-player-glow"></div>
         <img
@@ -114,12 +114,12 @@ export default function Hero() {
           </div>
 
           <h1>
-            PREMIER LEAGUE
-            <span> 5.0</span>
+            WOMEN'S PREMIER LEAGUE
+            <span> 2.0</span>
           </h1>
 
           <div className="hero-subtitle">
-            STATE LEVEL INTER SCHOOL
+            DISTRICT LEVEL INTER SCHOOL
             <br />
             CRICKET TOURNAMENT FOR GIRLS
           </div>
@@ -146,7 +146,7 @@ export default function Hero() {
               <circle cx="16.5" cy="17.5" r="1.1" fill="currentColor" />
             </svg>
             <span className="hero-date-text">
-              21<sup>ST</sup> OCTOBER TO 04<sup>TH</sup> NOVEMBER 2026
+              17<sup>TH</sup> TO 22<sup>ND</sup> NOVEMBER 2026
             </span>
           </div>
 
@@ -184,14 +184,14 @@ export default function Hero() {
             {/* CARD TOP CREST EMBLEM */}
             <div className="hero-reg-crest-header">
               <img
-                src="/rpl-crest-3d.png"
-                alt="RPL 5.0 Tournament Crest"
+                src="/rwpl-logo-2.0.png"
+                alt="RWPL 2.0 Official Logo"
                 className="hero-reg-crest-img"
               />
               <div className="hero-reg-title-wrap">
                 <div className="hero-reg-badge-label">
                   <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{isSubmitted ? 'WELCOME TO RPL 5.0' : 'OFFICIAL TEAM REGISTRATION'}</span>
+                  <span>{isSubmitted ? 'WELCOME TO RWPL 2.0' : 'OFFICIAL TEAM REGISTRATION'}</span>
                 </div>
                 <h3 className="hero-reg-card-title">
                   {isSubmitted ? <span>WELCOME <span>ABOARD!</span></span> : <span>REGISTER <span>YOUR TEAM</span></span>}
@@ -213,7 +213,7 @@ export default function Hero() {
                 </h4>
 
                 <p className="hero-welcome-msg">
-                  We are thrilled to welcome <strong>{form.schoolName || 'your team'}</strong> to <strong>Rungta Premier League 5.0</strong>.
+                  We are thrilled to welcome <strong>{form.schoolName || 'your team'}</strong> to <strong>Rungta Women's Premier League 2.0</strong>.
                 </p>
 
                 <p className="hero-welcome-submsg">
@@ -389,7 +389,7 @@ export default function Hero() {
             </div>
             <div className="hero-feat-text">
               <strong className="hero-feat-main">Under 18</strong>
-              <span className="hero-feat-sub">School Girls (U-18)</span>
+              <span className="hero-feat-sub">Player Age Group</span>
             </div>
           </div>
 
@@ -417,7 +417,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* 4. RSR RCET CRICKET GROUND */}
+          {/* 4. CRICKET GROUND BHILAI */}
           <div className="hero-feature">
             <div className="hero-feat-icon">
               <svg viewBox="0 0 48 48" className="hero-feat-svg" fill="#f8c51c">
@@ -425,7 +425,7 @@ export default function Hero() {
               </svg>
             </div>
             <div className="hero-feat-text">
-              <strong className="hero-feat-main">RSR RCET Cricket Ground</strong>
+              <strong className="hero-feat-main">Sanjay Rungta Cricket Ground</strong>
               <span className="hero-feat-sub">Bhilai</span>
             </div>
           </div>

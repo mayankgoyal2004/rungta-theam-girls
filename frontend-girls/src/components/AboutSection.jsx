@@ -15,11 +15,11 @@ export default function AboutSection() {
           </h2>
 
           <p>
-            Rungta Premier League (RPL) 5.0 is a state level inter school cricket tournament for girls, organized by Sanjay Rungta Group of Institutions, Bhilai.
+            Rungta Women's Premier League (RWPL) 2.0 is a district level inter school cricket tournament for girls, organized by Sanjay Rungta Group of Institutions, Bhilai.
           </p>
 
           <p>
-            RPL 5.0 aims to provide a competitive platform for young talent, promote sportsmanship and encourage a healthy, active lifestyle among school students.
+            RWPL 2.0 aims to provide a competitive platform for young talent, promote sportsmanship and encourage a healthy, active lifestyle among school students.
           </p>
 
           <div className="about-points">

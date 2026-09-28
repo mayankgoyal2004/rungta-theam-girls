@@ -1,17 +1,20 @@
 export const TOURNAMENT_INFO = {
-  title: "Rungta Premier League 5.0",
-  edition: "5.0",
-  subtitle: "State Level Inter School Cricket Tournament for Girls",
+  title: "Rungta Women's Premier League 2.0",
+  shortTitle: "RWPL 2.0",
+  edition: "2.0",
+  subtitle: "District Level Inter School Cricket Tournament for Girls",
   organizer: "Sanjay Rungta Group of Institutions, Bhilai",
   motto: "Let the minds bloom",
-  dates: "21st October to 04th November 2026",
-  venue: "RSR RCET Cricket Ground, Sanjay Rungta Group of Institutions, Bhilai (C.G.)",
+  dates: "17th to 22nd November 2026",
+  startDate: "2026-11-17T09:00:00",
+  endDate: "2026-11-22T18:00:00",
+  venue: "Sanjay Rungta Group of Institutions, Cricket Ground, Bhilai",
   entryFee: "₹500",
   entryFeeDetails: "Per Team (Squad of 11 to 15 Players)",
   contactNumbers: ["9229 111 555", "9229 111 666"],
   whatsappNumber: "919229111555",
   ageGroup: "Under 18 Years (School Girls)",
-  ballType: "Tennis Ball (Heavy Duty)",
+  ballType: "Tennis Ball",
   matchType: "Day Matches Only",
 };
 
@@ -19,7 +22,7 @@ export const PRIZES_DATA = {
   mainPrizes: [
     {
       id: "winner",
-      place: "CHAMPION / WINNER",
+      place: "WINNER",
       amount: "₹21,000",
       scholarship: "₹5,100",
       scholarshipLabel: "Per Player Scholarship",
@@ -57,7 +60,7 @@ export const PRIZES_DATA = {
     },
     {
       id: "second-runner-up",
-      place: "2ND RUNNER UP",
+      place: "SECOND RUNNER UP",
       amount: "₹5,100",
       scholarship: "₹2,100",
       scholarshipLabel: "Per Player Scholarship",
@@ -80,13 +83,13 @@ export const PRIZES_DATA = {
     {
       title: "Women of the Series",
       amount: "₹2,100",
-      desc: "Player with outstanding all-round performance throughout RPL 5.0",
+      desc: "Player with outstanding all-round performance throughout RWPL 2.0",
       icon: "star",
       category: "Special Star Award"
     },
     {
       title: "Hit Me - Celebration Award",
-      amount: "Special Prize",
+      amount: "Celebration",
       desc: "Most entertaining match moment, longest six, or celebration of the tournament",
       icon: "zap",
       category: "Celebration"
@@ -106,7 +109,7 @@ export const PRIZES_DATA = {
       category: "Power Hitting"
     },
     {
-      title: "Hat-Trick Wickets",
+      title: "Hat Trick Wickets",
       amount: "₹501",
       desc: "Awarded to any bowler claiming 3 consecutive dismissals",
       icon: "crosshair",
@@ -143,7 +146,7 @@ export const PRIZES_DATA = {
     {
       title: "Participant Player Scholarship",
       amount: "₹1,100",
-      scope: "Awarded to all verified registered participants of RPL 5.0",
+      scope: "Awarded to all verified registered participants of RWPL 2.0",
       badge: "All Participants"
     }
   ]
@@ -156,7 +159,7 @@ export const TOURNAMENT_FORMAT = [
     overs: "5 Overs",
     oversCount: 5,
     description: "High-intensity fast-paced 5-over knockout cricket matches. Only winners advance to next round.",
-    date: "21 Oct - 29 Oct 2026",
+    date: "17 Nov - 19 Nov 2026",
     badge: "Knockout"
   },
   {
@@ -165,7 +168,7 @@ export const TOURNAMENT_FORMAT = [
     overs: "6 Overs",
     oversCount: 6,
     description: "Top school squads compete in 6-over semi-final battles to enter the grand final.",
-    date: "30 Oct - 02 Nov 2026",
+    date: "20 Nov - 21 Nov 2026",
     badge: "Semi Final"
   },
   {
@@ -174,7 +177,7 @@ export const TOURNAMENT_FORMAT = [
     overs: "6 Overs",
     oversCount: 6,
     description: "The ultimate 6-over championship match followed by live prize distribution ceremony.",
-    date: "04 Nov 2026",
+    date: "22 Nov 2026",
     badge: "Championship"
   }
 ];
@@ -183,106 +186,106 @@ export const RULES_LIST = [
   {
     id: "01",
     title: "Tennis Ball Cricket",
-    desc: "This tournament will strictly be played with premium approved heavy tennis balls."
+    desc: "This tournament will be played with a tennis ball."
   },
   {
     id: "02",
     title: "Fresh Ball Per Inning",
-    desc: "Each individual inning will start with a brand-new ball provided by match officials."
+    desc: "Each inning will start with a new ball."
   },
   {
     id: "03",
-    title: "5-Over Knockout Prelims",
-    desc: "Preliminary & knockout matches will be conducted as 5 overs per side contests."
+    title: "Knockout Matches: 5 Overs",
+    desc: "Knockout matches will be of 5 overs."
   },
   {
     id: "04",
     title: "Semi-Final & Final: 6 Overs",
-    desc: "Semi-Finals and Grand Final will be 6 overs per side. Teams must report 30 min prior to scheduled time."
+    desc: "Semi  Final and Final will be 6 overs a side. The team should report 30 minutes prior to the scheduled match start time."
   },
   {
     id: "05",
     title: "Umpire's Decision is Final",
-    desc: "On-field umpire's decisions are conclusive and binding. Dissent will lead to disciplinary penalties."
+    desc: "On-field umpire's decision would be the final one."
   },
   {
     id: "06",
     title: "LBW & Leg Byes Excluded",
-    desc: "LBW (Leg Before Wicket) and Leg Byes rules are not applicable for this tournament."
+    desc: "LBW and Leg byes are not applicable for this tournament."
   },
   {
     id: "07",
     title: "Strict Single Team Eligibility",
-    desc: "A player who has registered and played in one team cannot play for any other team in the tournament."
+    desc: "A player who has played in one team is not allowed to play in another team."
   },
   {
     id: "08",
-    title: "Chucking Strictly Prohibited",
-    desc: "Illegal bowling actions (chucking/throwing) are strictly disallowed and will incur immediate no-ball calls."
+    title: "Chucking Allowed",
+    desc: "Chucking is allowed."
   },
   {
     id: "09",
     title: "Mandatory School ID & Aadhaar",
-    desc: "All players must produce original School ID cards and Aadhaar cards at the registration verification desk."
+    desc: "All players must produce a School ID card and Aadhar card at the time of registration."
   },
   {
     id: "10",
-    title: "Uniform Sports Kit",
-    desc: "All participants are required to wear team sports uniforms and the necessary sports gear throughout the event."
+    title: "Same Colour Sports Uniform",
+    desc: "All the players in the team need to wear the same colour sports uniform."
   },
   {
     id: "11",
-    title: "Organizers' Discretion",
-    desc: "The organizing committee reserves complete rights to amend match timings, rules or schedule based on weather/ground conditions."
+    title: "Organizer's Discretion",
+    desc: "The organizer has full right to change the match rules according to the situation."
   },
   {
     id: "12",
-    title: "Age Criterion Compliance",
-    desc: "Tournament is exclusively for school girls under 18 years of age. Cutoff verification is mandatory."
+    title: "Player Age Group",
+    desc: "Player age group must be under 18 years (School Girls)."
   }
 ];
 
 export const GALLERY_ITEMS = [
   {
     id: 1,
+    title: "RWPL 2.0 Official Tournament Poster",
+    category: "Official Banner",
+    src: "/images/rwpl-poster.jpg",
+    alt: "Rungta Women's Premier League 2.0 Official Banner & Tournament Guidelines"
+  },
+  {
+    id: 2,
     title: "Rungta Cricket Ground & Practice Nets",
     category: "Campus Facility",
     src: "/images/ground-facility.jpg",
     alt: "Rungta Cricket Ground Nets and green turf pitch"
   },
   {
-    id: 2,
+    id: 3,
     title: "Intense Net Practice Session",
     category: "Training",
     src: "/images/nets-batsman.jpg",
     alt: "Batsman taking stance in Rungta blue practice nets"
   },
   {
-    id: 3,
+    id: 4,
     title: "Match Day Batting Masterclass",
     category: "Tournament Action",
     src: "/images/match-action.jpg",
-    alt: "Young batsman playing a sweep shot at Rungta Public School ground"
+    alt: "Young batsman playing a sweep shot at Rungta Cricket ground"
   },
   {
-    id: 4,
+    id: 5,
     title: "Academy Coach Mentoring Bowlers",
     category: "Coaching",
     src: "/images/academy-coaching.jpg",
     alt: "Cricket academy coach giving live feedback to young bowler at stumps"
-  },
-  {
-    id: 5,
-    title: "RPL 5.0 Official Banner & Launch",
-    category: "Tournament Flyer",
-    src: "/images/rpl-poster.png",
-    alt: "Rungta Premier League 5.0 Official Poster & Tournament Guidelines"
   }
 ];
 
 export const FAQ_DATA = [
   {
-    q: "Who is eligible to participate in RPL 5.0?",
+    q: "Who is eligible to participate in RWPL 2.0?",
     a: "Any school girls team with players studying in recognized schools under 18 years of age are eligible. Each player must submit valid School ID and Aadhaar card."
   },
   {
@@ -298,11 +301,11 @@ export const FAQ_DATA = [
     a: "Knockouts & Prelims are 5 overs a side; Semi-Finals and the Grand Finale are 6 overs a side."
   },
   {
-    q: "What kind of ball is used?",
-    a: "The tournament will be played using standard high-grade heavy tennis cricket balls. A new ball is provided for each inning."
+    q: "What kind of ball is used and what are the bowling rules?",
+    a: "The tournament will be played with a tennis ball. A new ball is provided for each inning. Chucking is allowed in this tournament."
   },
   {
-    q: "Where is the venue and what facilities are provided?",
-    a: "The tournament takes place at RSR RCET Cricket Ground, Sanjay Rungta Group of Institutions, Bhilai. Teams get access to professional turf nets, hydration stations, first-aid medical support, and official commentary."
+    q: "Where is the venue and what are the tournament dates?",
+    a: "The tournament takes place from 17th to 22nd November 2026 at Sanjay Rungta Group of Institutions, Cricket Ground, Bhilai."
   }
 ];

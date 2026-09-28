@@ -41,7 +41,7 @@ export default function Footer() {
               {/* SOLID WHITE PHONE ICON */}
               <div className="footer-phone-icon">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7">
-                  <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z" />
+                  <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z" />
                 </svg>
               </div>
 
@@ -69,7 +69,7 @@ export default function Footer() {
 
               <div className="footer-venue-text">
                 <p>Sanjay Rungta Group of Institutions,</p>
-                <p>RSR RCET Cricket Ground,</p>
+                <p>Cricket Ground,</p>
                 <p>Bhilai.</p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Footer() {
         {/* FOOTER BOTTOM BAR */}
         <div className="footer-bottom-ref">
           <span className="footer-copyright">
-            © 2026 Rungta Premier League. All Rights Reserved.
+            © 2026 Rungta Women's Premier League 2.0. All Rights Reserved.
           </span>
 
           <span className="footer-initiative">

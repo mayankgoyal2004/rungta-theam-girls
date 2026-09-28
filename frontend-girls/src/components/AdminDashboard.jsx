@@ -424,7 +424,7 @@ export default function AdminDashboard({ onBackToHome }) {
   const openWhatsAppChat = (lead) => {
     const text = encodeURIComponent(
       `Hello ${lead.fullName},\n\n` +
-      `Greetings from *Sanjay Rungta Group of Institutions, Bhilai* regarding *Rungta Premier League 5.0 (RPL)*.\n\n` +
+      `Greetings from *Sanjay Rungta Group of Institutions, Bhilai* regarding *Rungta Women's Premier League 2.0 (RWPL 2.0)*.\n\n` +
       `We have received your registration for *${lead.schoolName}* (Lead ID: ${lead.id}).\n\n` +
       `Would you like us to share the tournament match schedule, rulebook, and team reporting guidelines?`
     );
@@ -443,8 +443,8 @@ export default function AdminDashboard({ onBackToHome }) {
           </div>
 
           <div className="flex items-center justify-center gap-2 mb-1">
-            <img src="/rpl-crest-3d.png" alt="RPL Crest" className="h-10 w-auto" />
-            <span className="font-heading font-black text-2xl tracking-wider text-white">RPL 5.0</span>
+            <img src="/rpl-crest-3d.png" alt="RWPL 2.0 Crest" className="h-10 w-auto" />
+            <span className="font-heading font-black text-2xl tracking-wider text-white">RWPL 2.0</span>
           </div>
 
           <h2 className="admin-lock-title">TOURNAMENT CRM PORTAL</h2>
@@ -476,7 +476,7 @@ export default function AdminDashboard({ onBackToHome }) {
               className="admin-back-home-btn"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
-              <span>Back to RPL 5.0 Landing Page</span>
+              <span>Back to RWPL 2.0 Landing Page</span>
             </button>
           </form>
         </div>
@@ -507,9 +507,9 @@ export default function AdminDashboard({ onBackToHome }) {
             </button>
             <div className="h-5 w-[1px] bg-slate-700"></div>
             <div className="flex items-center gap-2">
-              <img src="/rpl-crest-3d.png" alt="RPL 5.0" className="h-9 w-auto" />
+              <img src="/rpl-crest-3d.png" alt="RWPL 2.0" className="h-9 w-auto" />
               <div>
-                <h1 className="admin-brand-title">RPL 5.0 CRM</h1>
+                <h1 className="admin-brand-title">RWPL 2.0 CRM</h1>
                 <span className="admin-brand-sub">LEADS & TEAM REGISTRATIONS</span>
               </div>
             </div>

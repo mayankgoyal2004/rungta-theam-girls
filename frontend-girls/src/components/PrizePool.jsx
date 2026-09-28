@@ -654,7 +654,7 @@ export default function PrizePool() {
                 </div>
               </div>
               <p className="pp-tf-desc-text">
-                The ultimate 6-over championship battle for RPL 5.0 trophy
+                The ultimate 6-over championship battle for RWPL 2.0 trophy
               </p>
             </div>
 

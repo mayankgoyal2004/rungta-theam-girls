@@ -12,7 +12,7 @@ export default function GallerySection() {
     },
     {
       url: "/gallery/file_0000000085b88211955db56a354a66d1.png",
-      title: "RPL 5.0 Tournament Action"
+      title: "RWPL 2.0 Tournament Action"
     },
     {
       url: "/gallery/file_0000000093f88211a06340816a0470a3.png",

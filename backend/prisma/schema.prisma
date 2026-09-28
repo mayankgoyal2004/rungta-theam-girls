@@ -1,0 +1,50 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum LeadStatus {
+  NEW
+  CONTACTED
+  CONFIRMED
+  PAID
+  CANCELLED
+}
+
+model Lead {
+  id          String      @id @default(uuid())
+  leadCode    String      @unique // e.g. "RPL-1001"
+  fullName    String
+  phone       String
+  schoolName  String
+  city        String?     @default("")
+  role        String      @default("Coach / Sports Teacher")
+  status      LeadStatus  @default(NEW)
+  notes       String?     @default("Enquiry registered through official landing page.")
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  @@index([leadCode])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model AdminConfig {
+  id          String   @id @default(uuid())
+  key         String   @unique // e.g. "ADMIN_PIN"
+  value       String   // PIN / password string
+  updatedAt   DateTime @updatedAt
+}
+
+model AdminSession {
+  id          String   @id @default(uuid())
+  token       String   @unique
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+
+  @@index([token])
+}

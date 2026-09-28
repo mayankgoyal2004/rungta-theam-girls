@@ -69,7 +69,7 @@ export default function Hero() {
   };
 
   const handleWhatsAppSend = () => {
-    const text = encodeURIComponent('Hello, I want to register for Rungta Premier League 5.0.');
+    const text = encodeURIComponent('Hello, I want to register our team for Rungta Premier League 5.0.');
     window.open(`https://wa.me/919229111555?text=${text}`, '_blank');
   };
 
@@ -90,12 +90,12 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-overlay"></div>
 
-      {/* BACKGROUND CRICKET IMAGE LAYER (FULL RIGHT WIDTH) */}
+      {/* BACKGROUND CRICKET IMAGE LAYER (HIGH-RES GIRLS CRICKET ACTION) */}
       <div className="hero-player">
         <div className="hero-player-glow"></div>
         <img
-          src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=2000&q=90"
-          alt="Cricket Stadium"
+          src="/images/girls-cricket-hero.jpg"
+          alt="Girls Cricket Tournament"
         />
       </div>
 
@@ -375,7 +375,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* 3. UNDER 18 */}
+          {/* 2. UNDER 18 */}
           <div className="hero-feature">
             <div className="hero-feat-icon">
               <svg viewBox="0 0 48 48" className="hero-feat-svg" fill="#f8c51c">
@@ -393,7 +393,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* 4. TENNIS BALL (CROSSED BATS) */}
+          {/* 3. TENNIS BALL (CROSSED BATS) */}
           <div className="hero-feature">
             <div className="hero-feat-icon">
               <svg viewBox="0 0 48 48" className="hero-feat-svg" fill="none">
@@ -417,7 +417,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* 5. RSR RCET CRICKET GROUND */}
+          {/* 4. RSR RCET CRICKET GROUND */}
           <div className="hero-feature">
             <div className="hero-feat-icon">
               <svg viewBox="0 0 48 48" className="hero-feat-svg" fill="#f8c51c">

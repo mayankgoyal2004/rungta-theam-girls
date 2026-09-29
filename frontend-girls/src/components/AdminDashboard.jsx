@@ -1033,7 +1033,7 @@ export default function AdminDashboard({ onBackToHome }) {
               </div>
 
               <div className="admin-form-group">
-                <label className="admin-form-label">School / Institution Name *</label>
+                <label className="admin-form-label">School Name *</label>
                 <input
                   type="text"
                   required

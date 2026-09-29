@@ -1,29 +1,28 @@
-import React from 'react';
+import React from "react";
 
 export default function GallerySection() {
   const galleryImages = [
     {
-      url: "/gallery/rpl_gallery_1.jpeg",
-      title: "Match Action & Practice"
+      url: "/gallery/rpwl_gallery_1.jpeg",
+      title: "Match Action & Practice",
     },
     {
-      url: "/gallery/rpl_gallery_2.jpeg",
-      title: "Cricket Camp & Match Moments"
+      url: "/gallery/rpwl_gallery_2.jpeg",
+      title: "Cricket Camp & Match Moments",
     },
     {
       url: "/gallery/file_0000000085b88211955db56a354a66d1.png",
-      title: "RWPL 2.0 Tournament Action"
+      title: "RWPL 2.0 Tournament Action",
     },
     {
-      url: "/gallery/file_0000000093f88211a06340816a0470a3.png",
-      title: "Ground Energy & Celebration"
-    }
+      url: "/gallery/file_girl_gallery.png",
+      title: "Ground Energy & Celebration",
+    },
   ];
 
   return (
     <section className="section gallery-section" id="gallery">
       <div className="container-custom">
-        
         {/* GALLERY HEADER */}
         <div className="gallery-header-clean">
           <div className="gallery-accent-bar"></div>
@@ -47,7 +46,6 @@ export default function GallerySection() {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

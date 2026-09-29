@@ -47,7 +47,7 @@ export default function AboutSection() {
 
         <div className="about-image">
           <img
-            src="/images/ground-facility.jpg"
+            src={`${import.meta.env.BASE_URL}images/ground-facility.jpg`}
             alt="Students and sports"
           />
 

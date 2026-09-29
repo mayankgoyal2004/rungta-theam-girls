@@ -250,35 +250,35 @@ export const GALLERY_ITEMS = [
     id: 1,
     title: "RWPL 2.0 Official Tournament Poster",
     category: "Official Banner",
-    src: "/images/rwpl-poster.jpg",
+    src: `${import.meta.env.BASE_URL}images/rwpl-poster.jpg`,
     alt: "Rungta Women's Premier League 2.0 Official Banner & Tournament Guidelines"
   },
   {
     id: 2,
     title: "Rungta Cricket Ground & Practice Nets",
     category: "Campus Facility",
-    src: "/images/ground-facility.jpg",
+    src: `${import.meta.env.BASE_URL}images/ground-facility.jpg`,
     alt: "Rungta Cricket Ground Nets and green turf pitch"
   },
   {
     id: 3,
     title: "Intense Net Practice Session",
     category: "Training",
-    src: "/images/nets-batsman.jpg",
+    src: `${import.meta.env.BASE_URL}images/nets-batsman.jpg`,
     alt: "Batsman taking stance in Rungta blue practice nets"
   },
   {
     id: 4,
     title: "Match Day Batting Masterclass",
     category: "Tournament Action",
-    src: "/images/match-action.jpg",
+    src: `${import.meta.env.BASE_URL}images/match-action.jpg`,
     alt: "Young batsman playing a sweep shot at Rungta Cricket ground"
   },
   {
     id: 5,
     title: "Academy Coach Mentoring Bowlers",
     category: "Coaching",
-    src: "/images/academy-coaching.jpg",
+    src: `${import.meta.env.BASE_URL}images/academy-coaching.jpg`,
     alt: "Cricket academy coach giving live feedback to young bowler at stumps"
   }
 ];

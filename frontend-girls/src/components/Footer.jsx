@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer-brand-col">
             <a href="#home" className="footer-logo-link">
               <img
-                src="/rungta_footer_logo_white.png"
+                src={`${import.meta.env.BASE_URL}rungta_footer_logo_white.png`}
                 alt="Sanjay Rungta Group - Let the minds bloom"
                 className="footer-rungta-logo"
               />

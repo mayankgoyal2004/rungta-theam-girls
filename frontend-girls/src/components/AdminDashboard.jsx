@@ -443,7 +443,7 @@ export default function AdminDashboard({ onBackToHome }) {
           </div>
 
           <div className="flex items-center justify-center gap-2 mb-1">
-            <img src="/rpl-crest-3d.png" alt="RWPL 2.0 Crest" className="h-10 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}rpl-crest-3d.png`} alt="RWPL 2.0 Crest" className="h-10 w-auto" />
             <span className="font-heading font-black text-2xl tracking-wider text-white">RWPL 2.0</span>
           </div>
 
@@ -507,7 +507,7 @@ export default function AdminDashboard({ onBackToHome }) {
             </button>
             <div className="h-5 w-[1px] bg-slate-700"></div>
             <div className="flex items-center gap-2">
-              <img src="/rpl-crest-3d.png" alt="RWPL 2.0" className="h-9 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}rpl-crest-3d.png`} alt="RWPL 2.0" className="h-9 w-auto" />
               <div>
                 <h1 className="admin-brand-title">RWPL 2.0 CRM</h1>
                 <span className="admin-brand-sub">LEADS & TEAM REGISTRATIONS</span>

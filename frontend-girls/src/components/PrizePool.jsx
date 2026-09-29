@@ -27,7 +27,7 @@ export default function PrizePool() {
             <div className="prize-card-ref winner-card">
               <div className="trophy-img-wrap">
                 <img
-                  src="/images/gold-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/gold-trophy.png`}
                   alt="Winner Gold Trophy"
                   className="trophy-img trophy-gold"
                   loading="lazy"
@@ -45,7 +45,7 @@ export default function PrizePool() {
             <div className="prize-card-ref runner-card">
               <div className="trophy-img-wrap">
                 <img
-                  src="/images/silver-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/silver-trophy.png`}
                   alt="Runner Up Silver Trophy"
                   className="trophy-img trophy-silver"
                   loading="lazy"
@@ -63,7 +63,7 @@ export default function PrizePool() {
             <div className="prize-card-ref bronze-card">
               <div className="trophy-img-wrap">
                 <img
-                  src="/images/bronze-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/bronze-trophy.png`}
                   alt="Second Runner Up Trophy"
                   className="trophy-img trophy-bronze"
                   loading="lazy"
@@ -306,7 +306,7 @@ export default function PrizePool() {
             <div className="pp-sch-card pp-sch-card-winner">
               <div className="pp-sch-trophy-wrap">
                 <img
-                  src="/images/gold-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/gold-trophy.png`}
                   alt="Winner Gold Trophy"
                   className="pp-sch-trophy-img"
                   loading="lazy"
@@ -321,7 +321,7 @@ export default function PrizePool() {
             <div className="pp-sch-card pp-sch-card-runner">
               <div className="pp-sch-trophy-wrap">
                 <img
-                  src="/images/silver-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/silver-trophy.png`}
                   alt="Runner Up Silver Trophy"
                   className="pp-sch-trophy-img"
                   loading="lazy"
@@ -336,7 +336,7 @@ export default function PrizePool() {
             <div className="pp-sch-card pp-sch-card-semi">
               <div className="pp-sch-trophy-wrap">
                 <img
-                  src="/images/bronze-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/bronze-trophy.png`}
                   alt="Semifinalist Bronze Trophy"
                   className="pp-sch-trophy-img"
                   loading="lazy"
@@ -351,7 +351,7 @@ export default function PrizePool() {
             <div className="pp-sch-card pp-sch-card-participant">
               <div className="pp-sch-trophy-wrap">
                 <img
-                  src="/images/participant-trophy.png"
+                  src={`${import.meta.env.BASE_URL}images/participant-trophy.png`}
                   alt="Participant Star Trophy"
                   className="pp-sch-trophy-img"
                   loading="lazy"
@@ -395,7 +395,7 @@ export default function PrizePool() {
               <div className="entry-price-block">
                 <div className="entry-3d-ball-wrap">
                   <img
-                    src="/images/cricket-ball.png"
+                    src={`${import.meta.env.BASE_URL}images/cricket-ball.png`}
                     alt="Official Tournament Cricket Ball"
                     className="entry-3d-ball-img"
                     loading="lazy"

@@ -12,7 +12,13 @@ export default function App() {
   const checkIsAdmin = () => {
     const path = window.location.pathname.toLowerCase();
     const hash = window.location.hash.toLowerCase();
-    return path === '/admin' || path === '/admin/' || hash === '#admin';
+    return (
+      path === '/admin' || 
+      path === '/admin/' || 
+      path.endsWith('/admin') || 
+      path.endsWith('/admin/') || 
+      hash === '#admin'
+    );
   };
 
   const [isAdminView, setIsAdminView] = useState(checkIsAdmin);
@@ -35,8 +41,9 @@ export default function App() {
   }, []);
 
   const handleBackToHome = () => {
-    if (window.location.pathname.toLowerCase().startsWith('/admin')) {
-      window.history.pushState({}, '', '/');
+    const basePath = import.meta.env.BASE_URL || '/';
+    if (window.location.pathname.toLowerCase().includes('/admin')) {
+      window.history.pushState({}, '', basePath);
     }
     window.location.hash = '';
     setIsAdminView(false);

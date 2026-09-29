@@ -3,19 +3,19 @@ import React from "react";
 export default function GallerySection() {
   const galleryImages = [
     {
-      url: "/gallery/rpwl_gallery_1.jpeg",
+      url: `${import.meta.env.BASE_URL}gallery/rpwl_gallery_1.jpeg`,
       title: "Match Action & Practice",
     },
     {
-      url: "/gallery/rpwl_gallery_2.jpeg",
+      url: `${import.meta.env.BASE_URL}gallery/rpwl_gallery_2.jpeg`,
       title: "Cricket Camp & Match Moments",
     },
     {
-      url: "/gallery/file_0000000085b88211955db56a354a66d1.png",
+      url: `${import.meta.env.BASE_URL}gallery/girl_gallery_ne.png`,
       title: "RWPL 2.0 Tournament Action",
     },
     {
-      url: "/gallery/file_girl_gallery.png",
+      url: `${import.meta.env.BASE_URL}gallery/file_girl_gallery.png`,
       title: "Ground Energy & Celebration",
     },
   ];

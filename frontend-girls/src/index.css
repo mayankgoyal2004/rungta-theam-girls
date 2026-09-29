@@ -1200,7 +1200,7 @@ h1, h2, h3, h4, .font-heading {
 
 /* SECTION 2: SPECIAL AWARDS (MATCHING REFERENCE IMAGE) */
 .pp-special-awards-section {
-  background:linear-gradient(180deg, rgba(2, 14, 34, 0.88) 0%, rgba(3, 19, 46, 0.72) 50%, rgba(2, 12, 30, 0.92) 100%), url("/images/special-awards-bg.jpg") center/cover no-repeat;
+  background:linear-gradient(180deg, rgba(2, 14, 34, 0.88) 0%, rgba(3, 19, 46, 0.72) 50%, rgba(2, 12, 30, 0.92) 100%), url("/girls/images/special-awards-bg.jpg") center/cover no-repeat;
   color: #ffffff;
   padding: 70px 0 65px;
   position: relative;
@@ -1324,7 +1324,7 @@ h1, h2, h3, h4, .font-heading {
 
 /* SECTION 3: TOURNAMENT FORMAT (MATCHING REFERENCE IMAGE) */
 .pp-format-section {
-  background: #ffffff url("/images/tournament-format-bg.jpg") center/cover no-repeat;
+  background: #ffffff url("/girls/images/tournament-format-bg.jpg") center/cover no-repeat;
   padding: 75px 0 70px;
   width: 100%;
   position: relative;
@@ -1481,7 +1481,7 @@ h1, h2, h3, h4, .font-heading {
 
 /* SECTION 4: SCHOLARSHIP DETAILS */
 .pp-scholarship-section {
-  background:  linear-gradient(180deg, #03142e 0%, #020c1d 100%) , url("/images/scholarship-bg.jpg") center/cover no-repeat;
+  background:  linear-gradient(180deg, #03142e 0%, #020c1d 100%) , url("/girls/images/scholarship-bg.jpg") center/cover no-repeat;
   color: #ffffff;
   padding: 65px 0 70px;
   position: relative;
@@ -2400,7 +2400,7 @@ h1, h2, h3, h4, .font-heading {
   padding: 60px 0;
   color: white;
   width: 100%;
-  background: url("/images/ready-to-play-bg.jpg") center bottom / cover no-repeat;
+  background: url("/girls/images/ready-to-play-bg.jpg") center bottom / cover no-repeat;
   min-height: 240px;
   display: flex;
   align-items: center;

@@ -94,7 +94,7 @@ export default function Hero() {
       <div className="hero-player">
         <div className="hero-player-glow"></div>
         <img
-          src="/images/girls-cricket-hero.jpg"
+          src={`${import.meta.env.BASE_URL}images/girls-cricket-hero.jpg`}
           alt="Girls Cricket Tournament"
         />
       </div>
@@ -184,7 +184,7 @@ export default function Hero() {
             {/* CARD TOP CREST EMBLEM */}
             <div className="hero-reg-crest-header">
               <img
-                src="/rwpl-logo-2.0.png"
+                src={`${import.meta.env.BASE_URL}rwpl-logo-2.0.png`}
                 alt="RWPL 2.0 Official Logo"
                 className="hero-reg-crest-img"
               />

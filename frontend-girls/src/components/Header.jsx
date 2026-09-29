@@ -76,14 +76,14 @@ export default function Header() {
           {/* BRAND WITH BOTH LOGOS */}
           <a href="#home" className="brand flex items-center gap-3 group">
             <img
-              src="/SRGI LOGO.png"
+              src={`${import.meta.env.BASE_URL}SRGI LOGO.png`}
               alt="Sanjay Rungta Group of Institutions"
               className="srgi-nav-logo"
             />
             <div className="h-8 w-[1.5px] bg-slate-200 hidden sm:block"></div>
             <div className="flex items-center gap-2">
               <img
-                src="/rwpl-logo-2.0.png"
+                src={`${import.meta.env.BASE_URL}rwpl-logo-2.0.png`}
                 alt="Rungta Women's Premier League 2.0"
                 className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />

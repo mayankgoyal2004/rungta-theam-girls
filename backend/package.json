@@ -1,7 +1,7 @@
 {
   "name": "rpl-tournament-backend-girls",
   "version": "1.0.0",
-  "description": "PostgreSQL & Prisma ORM Backend for Rungta Premier League (RPL 5.0) Tournament CRM",
+  "description": "PostgreSQL & Prisma ORM Backend for Rungta Women's Premier League (RWPL 2.0) Tournament CRM",
   "main": "src/server.js",
   "type": "module",
   "scripts": {

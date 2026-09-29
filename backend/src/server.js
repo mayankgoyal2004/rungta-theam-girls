@@ -169,9 +169,10 @@ app.post('/api/auth/change-password', requireAdminAuth, async (req, res) => {
 app.get('/api/health', async (req, res) => {
   const dbCheck = await testDb();
   res.json({
-    status: 'ok',
-    server: 'RPL 5.0 Dedicated Backend (Express + Prisma)',
-    database: dbCheck.connected ? 'PostgreSQL (Prisma Connected)' : 'Local File Persistence (Active)',
+    status: dbCheck.connected ? 'ok' : 'degraded',
+    server: 'RWPL 2.0 Dedicated Backend (Express + Prisma)',
+    database: dbCheck.connected ? 'PostgreSQL (Prisma Connected)' : 'PostgreSQL Disconnected',
+    error: dbCheck.error || null,
     timestamp: new Date().toISOString()
   });
 });
